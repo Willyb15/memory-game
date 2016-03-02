@@ -1,3 +1,7 @@
+.page-wrapper{
+	margin:0 auto;
+}
+
 .header{
 	display: inline-block;
 	width: 100%;
@@ -15,9 +19,11 @@
 	margin-right: 400px;
 }
 
-.box{
+.image_container{
 	width: 80%;
 	margin:auto;
+	margin-left: auto;
+
 }
 
 .image {
@@ -38,19 +44,21 @@
 	margin-top:10px; 
 }
 
+
 .image img{
 	width: 80%;
 	padding:20px;
 }
 
 .image_missing img{
-	width: 102%;	
+	width: 80%;
+	padding:20px;	
 }
 
 
 .footer{
 	background-color: #0099FF;
 	height: 200px;
-	width: 100%;
-	margin: 10px 20px 0 20px;
+	width: 80%;
+	margin: 20px auto;
 }
